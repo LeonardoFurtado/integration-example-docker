@@ -8,7 +8,7 @@ Example Docker + Dotenv integration.
 
 ## Development
 
-Quick use - build & run
+#### Quick use - build & run
 
 ```
 $ docker build -t dotenv-org/integration-example-docker . && docker run -e $(cat .env.me) --rm -it -p 8080:8080 --init dotenv-org/integration-example-docker
@@ -17,13 +17,15 @@ $ docker build -t dotenv-org/integration-example-docker . && docker run -e $(cat
 $ docker build -t dotenv-org/integration-example-docker . && docker run -e (cat .env.me) --rm -it -p 8080:8080 --init dotenv-org/integration-example-docker
 ```
 
-Building image
+Visit [http://localhost:8080](http://localhost:8080)
+
+#### Building image
 
 ```
 $ docker build -t dotenv-org/integration-example-docker .
 ```
 
-Accessing console
+#### Accessing console
 
 ```
 $ docker run -e $(cat .env.me) --rm -it -p 8080:8080 --init dotenv-org/integration-example-docker sh
