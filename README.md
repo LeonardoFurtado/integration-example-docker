@@ -41,3 +41,5 @@ Running in production
 ```
 docker run -e DOTENV_ME=place-your-it-token-here --rm -it -p 8080:8080 --init dotenv-org/integration-example-docker
 ```
+
+In production replace the value of DOTENV_ME with your DOTENV_IT token for the particular environment.
