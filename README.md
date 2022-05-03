@@ -43,3 +43,5 @@ docker run -e DOTENV_ME=PLACE_YOUR_IT_TOKEN_HERE --rm -it -p 8080:8080 --init do
 ```
 
 In production replace the value of DOTENV_ME with your DOTENV_IT token for the particular environment.
+
+Example running in production [https://dotenvintegrationexampledocker.herokuapp.com/](https://dotenvintegrationexampledocker.herokuapp.com/)
