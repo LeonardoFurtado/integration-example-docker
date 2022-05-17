@@ -6,6 +6,8 @@ Works with [dotenv-vault](https://github.com/dotenv-org/dotenv-vault). Learn mor
 
 Example Docker + Dotenv integration.
 
+![dotenv-vault](https://img.shields.io/static/v1?label=dotenv&message=vault&color=yellow)
+
 ## Development
 
 #### Quick use - build & run
@@ -15,6 +17,8 @@ Pull the .env.example to .env
 ```
 $ npx dotenv-vault@latest pull example .env
 ```
+
+Build and run the Dockerfile
 
 ```
 $ docker build -t dotenv-org/integration-example-docker . && docker run -e $(cat .env.me) --rm -it -p 8080:8080 --init dotenv-org/integration-example-docker
